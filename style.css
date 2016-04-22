@@ -1,0 +1,213 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  max-width: 901px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px;
+}
+
+.logo {
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-writing {
+  margin-left: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.social-picture {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+hr {
+    height: 10px;
+    width: 100%;
+    background-color: rgba(151, 150, 158, 0.06);
+}
+
+.subheader {
+  margin: 55px 0px 30px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe-title {
+  margin-left: 0px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.print-icon {
+  margin-right: 0px;
+  display: flex;
+  flex-direction:row;
+  height: 50%;
+  align-self: flex-end;
+  background-color: rgba(151, 150, 158, 0.06);
+  font-size:
+}
+
+.grey-background {
+  background-color: rgba(151, 150, 158, 0.06);
+  color: rgb(151,150,158);
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+}
+
+.small-writing {
+  background-color: rgba(151, 150, 158, 0.06);
+  color: rgb(151,150,158);
+  font-family: 'Raleway', sans-serif;
+  font-size: 6px;
+}
+.image {
+  display:flex;
+  justify-content:center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.description-paragraph {
+  text-indent: 2em;
+  line-height: 1.3;
+  margin-top: 15px;
+  font-family: 'Slabo 27px', serif;
+  text-shadow: 1px 1px rgba(151, 150, 158, 0.06);
+  font-size: 20px;
+  color: rgb(105, 103, 107);
+}
+
+.recipe {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://github.com/codefellows/seattle-201d4/blob/master/class-10-review-animations/lab/lab-assets/list-bg.png?raw=true);
+  background-size: 100% 55%;
+}
+
+ul {
+  width: 50%;
+  margin-left: 0px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 25px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+.about-me-p {
+  text-shadow: 1px 1px rgba(151, 150, 158, 0.3);
+  color: rgb(151, 150, 158);
+}
+
+.share-recipe {
+  margin-right: 0px;
+  height: 50%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: rgb(175, 110, 25);
+  color: white;
+  font-family:sans-serif;
+  width: 200px;
+  height: 50px;
+}
+
+.share-recipe-text {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Raleway', serif;
+}
+
+h5 {
+  text-align: left;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.sub-footer {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sub-footer-image {
+  margin-bottom: 30px;
+}
+
+.sub-footer-text {
+  text-shadow: 1px 1px rgba(151, 150, 158, 0.06);
+  color: rgb(151, 150, 158);
+  font-size: 14px;
+}
+
+li {
+  list-style-type: square;
+}
